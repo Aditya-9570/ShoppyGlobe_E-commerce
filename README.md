@@ -1,16 +1,45 @@
-<<<<<<< HEAD
-# ShoppyGlobe_E-commerce
-=======
-# React + Vite
+ShoppyGlobe - E-commerce React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
 
-Currently, two official plugins are available:
+=> Home Page with Product List (fetched from API)
+=> 🔍 Product Search by title, brand or category
+=> ➕ Add to Cart / ➖ Increase / Decrease quantity
+=> 🛒 Cart Page with Clear Cart option
+=> 📦 Checkout Page showing cart summary
+=> ✅ Order Confirmation Page
+=> 🔑 Login Page (UI Only)
+=> ℹ About Page
+=> ❌ 404 Page for unknown routes
+=> ⚡ Lazy loading using React.lazy() and Suspense
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To Run
 
-## Expanding the ESLint configuration
+1. Clone the repository
+https://github.com/Aditya-9570/ShoppyGlobe_E-commerce
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 0c87b04 (shopping)
+
+2. Install dependencies
+npm install
+
+3. Run the App
+npm run dev
+
+
+Pages
+
+/ – Home (product list)
+
+/products/:id – Product details
+
+/cart – Cart page
+
+/checkout – Checkout page
+
+/orderdelivery – Order success page
+
+/login – Login page
+
+/about – About project
+
+
