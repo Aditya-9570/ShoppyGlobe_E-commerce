@@ -20,7 +20,7 @@ const CartItem = ({ cart }) => {
   }
 
   return (
-    <div key={cart.id} className='border w-[600px] bg-[#34495E] shadow-md mb-5 p-3 px-8'>
+    <div key={cart.id} className='border w-[600px] bg-blue-700 shadow-md mb-5 p-3 px-8'>
       <div className='flex gap-3 items-center text-white font-bold '>
         <img className='w-[50px]' src={cart.thumbnail} alt='' />
         <h1 className='font-bold text-[16px] w-[200px]'>{cart.title}</h1>

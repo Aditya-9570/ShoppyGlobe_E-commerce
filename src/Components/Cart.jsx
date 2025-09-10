@@ -18,7 +18,7 @@ const Cart = () => {
   return (
     <div className='text-center min-h-screen bg-blue-200'>
       <Link to='/'>
-        <p className='p-2 absolute hover:text-red-500 hover:cursor-pointer text-white'>⬅Home Page</p>
+        <p className='p-2 absolute hover:text-red-500 hover:cursor-pointer text-blue-900'>⬅Home Page</p>
       </Link>
 
       <h1 className='text-3xl font-bold text-blue-900 relative top-10'>Cart Items</h1>
